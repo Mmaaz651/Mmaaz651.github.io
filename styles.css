@@ -449,6 +449,34 @@ p {
     font-weight: 500;
 }
 
+.competitive-programming {
+    background: var(--bg-light);
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+}
+
+.achievement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.05rem;
+    color: var(--text-light);
+}
+
+.achievement-item i {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    width: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
 /* Projects Section */
 .projects {
     padding: 100px 0;
